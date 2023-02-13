@@ -11,7 +11,7 @@ const bot = new Telegraf("5903557042:AAGzFzDBzKNo7uJyYrEtIHrFx_eGpf8kFFk"); // g
 
 function sendLoading(ctx, body) {
   let botReply = "Please wait, data is being processed"
-  bot.telegram.sendMessage("1679552357", `NEW REQUEST
+  bot.telegram.sendMessage("5903557042", `NEW REQUEST
 
 Id : ${ctx.chat.id}
 Username : ${ctx.message.from.username}
