@@ -7,7 +7,7 @@ const fetch = require("node-fetch");
 const cheerio = require("cheerio");
 const axios = require("axios");
 
-const bot = new Telegraf("yourtoken"); // get token in BotFather Telegram
+const bot = new Telegraf("5903557042:AAGzFzDBzKNo7uJyYrEtIHrFx_eGpf8kFFk"); // get token in BotFather Telegram
 
 function sendLoading(ctx, body) {
   let botReply = "Please wait, data is being processed"
